@@ -1,4 +1,4 @@
-/************************************* Part 4 - Sharing Iceberg Tables *************************************/
+/************************************* Step 4 - Sharing Iceberg Tables *************************************/
 USE ROLE accountadmin;
 GRANT CREATE ACCOUNT ON ACCOUNT TO ROLE iceberg_lab;
 USE ROLE ICEBERG_LAB;

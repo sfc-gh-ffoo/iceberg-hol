@@ -1,4 +1,4 @@
-/******* 00 - ENVIRONMENT SETUP *******/
+/******* Step 1 - ENVIRONMENT SETUP *******/
 USE ROLE ACCOUNTADMIN;
 
 CREATE OR REPLACE WAREHOUSE iceberg_lab;
