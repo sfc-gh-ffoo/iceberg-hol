@@ -11,7 +11,7 @@ GRANT ALL ON SCHEMA iceberg_lab.iceberg_lab TO ROLE iceberg_lab WITH GRANT OPTIO
 GRANT ALL ON WAREHOUSE iceberg_lab TO ROLE iceberg_lab WITH GRANT OPTION;
 GRANT CREATE NOTEBOOK ON SCHEMA iceberg_lab.iceberg_lab TO ROLE iceberg_lab WITH GRANT OPTION;
 
-GRANT ROLE iceberg_lab TO USER iceberg_lab;
+GRANT ROLE iceberg_lab TO USER <your_username>;
 
 
 /******* 01 - CREATE EXTERNAL VOLUME *******/
