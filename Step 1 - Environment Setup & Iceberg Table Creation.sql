@@ -29,7 +29,7 @@ CREATE OR REPLACE EXTERNAL VOLUME iceberg_lab_vol
          )
       );
 
-DESC EXTERNAL VOLUME iceberg_external_volume; -- Please copy the value for STORAGE_AWS_IAM_USER_ARN into the google sheet
+DESC EXTERNAL VOLUME iceberg_lab_vol; -- Please copy the value for STORAGE_AWS_IAM_USER_ARN into the google sheet
 
 GRANT ALL ON EXTERNAL VOLUME iceberg_lab_vol TO ROLE iceberg_lab WITH GRANT OPTION;
 
